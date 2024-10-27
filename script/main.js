@@ -138,8 +138,8 @@ const animationTimeline = () => {
       backgroundColor: "rgb(21, 161, 237)",
       color: "#fff"
     })
-    .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-4", 2.5, ideaTextTrans)
+    .to(".idea-3", 2.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-4", 0.7, ideaTextTrans)
     .to(".idea-4", 2.5, ideaTextTransLeave, "+=1.5")
     .from(
       ".idea-5",
@@ -220,18 +220,12 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(".hat", 0.5, {
-      x: 360,
-      y: 350,
-      rotation: -180,
-      opacity: 0
-    })
     .staggerFrom(
       ".wish-hbd span",
       0.7,
       {
         opacity: 0,
-        y: -50,
+        y: -450,
         // scale: 0.3,
         rotation: 150,
         skewX: "30deg",
@@ -260,7 +254,7 @@ const animationTimeline = () => {
       0.5,
       {
         opacity: 0,
-        y: -220,
+        y: -280,
         skewX: "-15deg"
       },
       "party"
