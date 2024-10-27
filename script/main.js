@@ -221,7 +221,7 @@ const animationTimeline = () => {
       "-=2"
     )
     .from(".hat", 0.5, {
-      x: -100,
+      x: 80,
       y: 350,
       rotation: -180,
       opacity: 0
@@ -260,7 +260,7 @@ const animationTimeline = () => {
       0.5,
       {
         opacity: 0,
-        y: 10,
+        y: -20,
         skewX: "-15deg"
       },
       "party"
