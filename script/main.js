@@ -139,7 +139,7 @@ const animationTimeline = () => {
       color: "#fff"
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-4", 1.5, ideaTextTrans)
+    .from(".idea-4", 2.5, ideaTextTrans)
     .to(".idea-4", 1.5, ideaTextTransLeave, "+=1.5")
     .from(
       ".idea-5",
@@ -156,7 +156,7 @@ const animationTimeline = () => {
     )
     .to(
       ".idea-5 .smiley",
-      0.7,
+      3.0,
       {
         rotation: 90,
         x: 8
@@ -221,7 +221,7 @@ const animationTimeline = () => {
       "-=2"
     )
     .from(".hat", 0.5, {
-      x: 80,
+      x: 200,
       y: 350,
       rotation: -180,
       opacity: 0
@@ -260,7 +260,7 @@ const animationTimeline = () => {
       0.5,
       {
         opacity: 0,
-        y: -20,
+        y: -60,
         skewX: "-15deg"
       },
       "party"
