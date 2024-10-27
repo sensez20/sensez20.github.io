@@ -128,9 +128,9 @@ const animationTimeline = () => {
       "+=0.7"
     )
     .from(".idea-1", 0.7, ideaTextTrans)
-    .to(".idea-1", 1.5, ideaTextTransLeave, "+=1.5")
+    .to(".idea-1", 2.5, ideaTextTransLeave, "+=1.5")
     .from(".idea-2", 0.7, ideaTextTrans)
-    .to(".idea-2", 1.5, ideaTextTransLeave, "+=1.5")
+    .to(".idea-2", 2.5, ideaTextTransLeave, "+=1.5")
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 1.5, {
       scale: 1.2,
@@ -140,7 +140,7 @@ const animationTimeline = () => {
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-4", 2.5, ideaTextTrans)
-    .to(".idea-4", 1.5, ideaTextTransLeave, "+=1.5")
+    .to(".idea-4", 2.5, ideaTextTransLeave, "+=1.5")
     .from(
       ".idea-5",
       1.5,
@@ -221,7 +221,7 @@ const animationTimeline = () => {
       "-=2"
     )
     .from(".hat", 0.5, {
-      x: 200,
+      x: 360,
       y: 350,
       rotation: -180,
       opacity: 0
@@ -260,7 +260,7 @@ const animationTimeline = () => {
       0.5,
       {
         opacity: 0,
-        y: -60,
+        y: -220,
         skewX: "-15deg"
       },
       "party"
